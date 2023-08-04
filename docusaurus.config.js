@@ -40,7 +40,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Frontend Mülakat soruları",
+        title: "Frontend Mülakat Soruları",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",

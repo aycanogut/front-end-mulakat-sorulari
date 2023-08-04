@@ -1,7 +1,7 @@
 # 👋 Giriş
 
-Bu repo JavaScript, TypeScript, React ve web geliştirme ile ilgili mülakat sorularını içermektedir.
-Tüm kaynakların bir listesine [bu bağlantıdan](https://front-end-mulakat-sorulari.vercel.app/) ulaşabilirsiniz.
+Bu repo, JavaScript, TypeScript, React ve web geliştirme ile ilgili mülakat sorularını içermektedir.
+Tüm sorulara [bu bağlantıdan](https://front-end-mulakat-sorulari.vercel.app/) ulaşabilirsiniz.
 
 ## Website
 

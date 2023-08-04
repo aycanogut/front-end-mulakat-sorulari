@@ -1,0 +1,5 @@
+useCallback, React bileşenlerinde performansı artırmak için kullanılan bir React hook'udur. useMemo hook'u ile benzerlik gösterir, ancak farklı amaçlar için kullanılır.
+
+useCallback, genellikle, bir fonksiyonun oluşturulma maliyeti yüksek olduğunda veya önbelleğe alınması gerektiğinde kullanılır. Özellikle, bir fonksiyon, bir alt bileşende prop olarak geçirildiğinde veya bir event listener olarak kullanıldığında, her bileşen yeniden render edildiğinde bu fonksiyon da yeniden oluşturulur. Bu durum, bellek tüketimini artırabilir ve gereksiz işlemler yapılmasına neden olabilir.
+
+useCallback, bu durumu önlemek için kullanılır. useCallback, fonksiyonun bellekte önbelleğe alınmasını sağlar ve yalnızca bağımlılıkları değiştiğinde yeniden hesaplanır. Böylece, fonksiyon yeniden oluşturulması gerektiğinde değil, yalnızca gerektiğinde oluşturulur.

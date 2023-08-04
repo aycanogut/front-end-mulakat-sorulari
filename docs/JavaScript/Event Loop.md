@@ -1,0 +1,9 @@
+JavaScript dilinde gerçekleşen işlemleri asenkron olarak yöneten bir mekanizmadır. `call stack`, `task queue` ve `microtask queue` adındaki yapıların arasındaki etkileşim ile çalışır. 
+
+**Event loop**: JavaScript'in çalışma mantığını belirleyen önemli bir kavramdır. JavaScript, single-threaded (tek iş parçacıklı) bir dil olduğu için, asenkron işlemlerle başa çıkabilmek için event loop kullanılır. Event loop, call stack, task queue ve micro-task queue arasında sürekli olarak döngü halinde çalışarak asenkron işlemleri gerçekleştirir. Event loop, öncelikle call stack'i kontrol eder. Call stack boş olduğunda, task queue içinden sıradaki asenkron işlemleri alır ve call stack'e ekler. Eğer micro-task queue'da mikro görevler varsa, öncelikle onları alır ve işler. Micro-task queue boşaldıktan sonra task queue'daki asenkron işlemler sırayla çalıştırılır.
+
+**Call Stack**: Call stack, JavaScript'in işlem sırasında içine girdiği fonksiyonların, çağrıların ve dönüşlerin izlendiği veri yapısıdır. Kod çalıştırıldığında, işlemi gerçekleştiren fonksiyonlar call stack'e eklenir ve sırayla çalıştırılır. Fonksiyonlar tamamlandığında call stack'ten çıkar ve diğer fonksiyonlar çalıştırılmak üzere sıraya eklenir. İşlem sırasında bir fonksiyon, içinde başka bir fonksiyon çağırırsa, yeni fonksiyon call stack'e eklenir ve işlem o şekilde devam eder.
+
+**Task queue**: Gerçekleştirilecek asenkron işlemlerin (callback fonksiyonların) sıraya alındığı kısımdır. Örneğin, asenkron API çağrısında bulunan işlemler veya `setTimeout` gibi zamanlayıcılar tamamlandığında çalıştırılmak için bu kuyruğa eklenir.
+
+**Micro-task queue**: task queue'dan öncelikli olarak işletilen bir kuyruktur. Bu kuyrukta bulunan mikro görevler, diğer işlemlerin önüne geçer ve önce çalıştırılır. Microtask'lar, örneğin Promise.then() veya async/await kullanılarak oluşturulan asenkron işlemlerdir.

@@ -1,0 +1,1 @@
+Listelerdeki elemanların birbirinden benzersiz birer tanımlayıcıya sahip olmasını sağlayan özelliktir. Bütün elemanlara benzersiz bir key vermek, sanal DOM üzerinde daha verimli bir şekilde takip edilip, güncellenmesini sağlar.

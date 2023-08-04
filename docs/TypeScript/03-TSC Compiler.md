@@ -1,0 +1,1 @@
+TypeScript, `.ts` uzantılı dosyalarda yapılan tip tanımlamalarını TypeScript Compiler aracılığıyla derler, statik tip kontrolü yapar ve çıkan hataları rapor eder. Derleme yapıldıktan sonra herhangi bir hata ile karşılaşılmazsa kodları bir `.js` dosyası içerisine ekler.

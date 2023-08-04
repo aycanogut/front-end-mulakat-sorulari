@@ -1,0 +1,1 @@
+Kendini yineleyen işlevlere bir zaman limiti getirmek için kullanılan bir özelliktir. Belirtilen süre limiti geçmeden ilgili event handler tekrardan çalışmaz. Amacı yinelenen işlemlerin sebep olduğu kaynak tüketimini azaltıp performansı yükseltmektir.

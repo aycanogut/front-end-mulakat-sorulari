@@ -1,0 +1,1 @@
+React uygulamalarındaki potansiyel hataları tespit etmek için kullanılır. Eski versiyonlarda kullanılan ve kullanımdan kalkan bazı özellikler kullanıldığında sizi uyarır. Geliştirme aşamasında kullanılır. 

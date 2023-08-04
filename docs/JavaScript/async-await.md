@@ -1,0 +1,2 @@
+`async` ve `await` sözcüklerini kullanarak asenkron çalışan promise-based fonksiyonlar oluşturabiliriz. `async-await`, `Promise` yapısını daha yalın bir şekilde kullanabilmek ve zincirleme `Promise`'lardan kaçınmak amacıyla oluşturulmuştur. async olarak oluşturulan fonksiyonlar çağırıldığında geriye bir Promise döndürür. `try` ve `catch` blokları kullanarak `async-await` yapılarda hata yönetimi gerçekleştirebiliriz.
+

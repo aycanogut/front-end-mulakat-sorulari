@@ -1,0 +1,7 @@
+Virtual DOM (Sanal DOM), React gibi bazı JavaScript kütüphanelerinde ve çerçevelerinde kullanılan bir konsepttir. Sanal DOM, gerçek DOM ağacının sanal bir temsilidir.
+
+Sanal DOM, bir web sayfasının tamamını temsil eden bir ağaç yapısıdır. Bu yapı, gerçek DOM'dan farklı olarak, tarayıcı tarafından doğrudan işlenmez. Bunun yerine, JavaScript tarafından yönetilir. React, her bir bileşenin sanal DOM ağacını tutar ve herhangi bir değişiklik olduğunda, önce sanal DOM üzerinde değişiklik yapar. Daha sonra, gerçek DOM ile sanal DOM arasındaki farkı bulur ve sadece bu farkı gerçek DOM'a uygular. Bu sayede, gereksiz yenilemeleri önler ve performansı artırır.
+
+Sanal DOM, gerçek DOM ile arasındaki farkı bulmak için oldukça etkili bir algoritma kullanır. Bu algoritma, her iki ağacın yapısını karşılaştırır ve sadece farklı olan kısımları günceller. Böylece, gereksiz yenilemeleri önler ve daha verimli bir şekilde çalışır.
+
+Sanal DOM, özellikle büyük ve karmaşık web uygulamalarında performansı artırmak için kullanılır. Ayrıca, React gibi kütüphaneler, sanal DOM sayesinde, kodu daha okunaklı ve daha kolay anlaşılır hale getirir. Bu nedenle, sanal DOM, günümüzde birçok modern web uygulamasında yaygın olarak kullanılan bir teknolojidir.

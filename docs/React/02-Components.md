@@ -1,0 +1,3 @@
+React, kullanıcı arayüzünü `component`'leri kullanarak oluşturur. Oluşturulan bütün component ve sayfalar aslında birer JavaScript fonksiyonudur. Bileşenlerin amacı yeniden kullanılabilir yapılar oluşturmaktır. Bu yapılar bir araya gelerek bir bütün oluşturur ve uygulamanın çalışmasını sağlar. Bu, lego mantığına benzer.
+
+React, `class components`   ve `functional components` olmak üzere iki farklı kullanım tekniğine sahiptir.

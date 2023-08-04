@@ -1,0 +1,3 @@
+ESLint, JavaScript kodlarında hataları, tarz sorunlarını ve kötü kullanımları tespit etmek amacıyla kullanılan bir JavaScript linter aracıdır. ESLint, statik kod analizi yaparak kod kalitesini artırmaya ve hataların erken tespit edilmesine yardımcı olur.
+
+ESLint, geliştiricilere, kodlarını yazmadan önce potansiyel hataları veya uygun olmayan kod yazım kurallarını tespit etmelerine olanak tanır. Bu, kodların daha tutarlı ve standart bir şekilde yazılmasını sağlar ve kod kalitesini artırır. ESLint, özelleştirilebilir yapılandırma seçenekleri ve çok sayıda plugin ve kurallarla birlikte gelir, böylece kullanıcılar ihtiyaçlarına göre linter'i yapılandırabilir ve istenmeyen kod kalitesi sorunlarını tespit edebilir.

@@ -1,0 +1,5 @@
+Prettier, kod biçimlendirme aracıdır ve geliştiricilere kodlarını otomatik olarak düzenlemelerine olanak tanır. Prettier, kod biçimlendirme standartlarını belirler ve kodları bu standartlara göre otomatik olarak düzenler. Bu, geliştiricilerin kodların biçimlendirilmesiyle ilgili tartışmaları sona erdirmesine ve kodlarını daha tutarlı bir şekilde yazmasına yardımcı olur.
+
+Prettier, JavaScript, TypeScript, CSS, Less, SCSS, JSON, GraphQL ve Markdown gibi birçok farklı dosya türü için kullanılabilir. Ayrıca, Prettier, birçok farklı editör ve IDE ile entegre olabilir ve kod biçimlendirme işlemini otomatik olarak yapabilir.
+
+Prettier'in kullanımı oldukça basittir. Geliştiriciler, Prettier'ı proje bağımlılıklarına ekler ve belirledikleri biçimlendirme standartlarına göre kodlarını biçimlendirebilirler. Prettier, kodları otomatik olarak düzenler ve geliştiricilere biçimlendirmede hiçbir karar verme yükümlülüğü olmadan kodlarını daha iyi hale getirme imkanı sunar.

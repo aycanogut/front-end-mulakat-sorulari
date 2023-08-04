@@ -1,0 +1,1 @@
+Hataları derleme zamanında tespit etmesi sebebiyle özellikle büyük ve kapsamlı projelerde oluşabilecek hata payını azaltır. Geliştirme sürecinde hataları erkenden tespit eder ve potansiyel hataların önüne geçer. Bunlar haricinde sağladığı auto-completion özelliği sayesinde daha keyifli bir yazılım geliştirme deneyimi sunar. 

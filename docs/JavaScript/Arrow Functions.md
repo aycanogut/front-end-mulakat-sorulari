@@ -1,0 +1,5 @@
+Arrow functions, ES6 (ECMAScript 2015) ile birlikte JavaScript diline eklenen bir fonksiyon yazım şeklidir. Kısa ve okunaklı bir şekilde fonksiyonlar tanımlamayı mümkün kılar. Klasik JavaScript fonksiyon tanımına benzer şekilde kullanılabilir, ancak farklı bir sözdizimine sahiptir.
+
+Arrow functions, `=>` (ok işareti) sembolü ile tanımlanır. Bu sembol, fonksiyonun sol tarafında parametreleri ve sağ tarafında fonksiyonun gövdesini belirtir. Arrow function'lar genellikle tek bir ifade veya ifade bloğu içeren kısa fonksiyonlarda kullanılır.
+
+Arrow functions'ların klasik fonksiyonlardan farklı özellikleri vardır. Örneğin, Arrow function'larında `this` bağlamı kapsayıcı (enclosing) bağlama bağlıdır, yani fonksiyonun içindeki `this` ifadesi kapsayıcı fonksiyonun `this` bağlamını kullanır. Ayrıca, Arrow function'larının `arguments` bağlamı yoktur ve `super` anahtar sözcüğü de kullanılamaz.

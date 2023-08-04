@@ -1,0 +1,3 @@
+TypeScript, Microsoft tarafından ücretsiz ve açık kaynak olarak geliştirilen [**high-level** ](https://www.techopedia.com/definition/3925/high-level-language-hll) bir programlama dilidir. JavaScript'in [loosely typed](https://www.computerhope.com/jargon/l/looslang.htm) bir programlama dili olması, büyük ölçekli ve kompleks kodlara sahip uygulamalarda sürdürülebilir kod yazmayı zorlaştırabilir. TypeScript bu noktada devreye girerek JavaScript'e bazı süper güçler kazandırır. JavaScript dilinin sahip olduğu bütün özellikleri kullanırken, bu özelliklere type-safety bir katman ekleyerek geliştirme sürecinde karşılaşılabilecek hataları minimuma indirip, yazılımcı deneyimini iyileştirmeyi hedefler. 
+
+

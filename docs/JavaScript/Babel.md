@@ -1,0 +1,5 @@
+Babel, JavaScript kodunun farklı ya da eski tarayıcılarda ve platformlarda çalışabilmesi için kullanılan bir derleyicidir. Babel, özellikle ECMAScript 2015 (ES6) ve sonraki sürümlerdeki yeni özellikleri destekleyen JavaScript uygulamaları için yaygın bir araçtır.
+
+Babel, modern JavaScript özelliklerini kullanarak yazılan kodu, tarayıcıların anlayabileceği daha eski sürümlerine dönüştürür. Bu, eski tarayıcıları kullanan kullanıcıların bile uygulamaları doğru bir şekilde çalıştırabilmesini sağlar. Ayrıca, Babel, JavaScript kodunun farklı platformlarda çalışabilmesini sağlayan farklı modülleri destekler.
+
+Babel, aynı zamanda JSX gibi syntax uzantılarını da destekleyerek, React ve diğer framework'lerdeki kodları daha anlaşılır hale getirmek için kullanılır. Babel, JavaScript kodunu transpile etmek için birçok farklı plugin ve presetler sağlar. Babel plugin ve presetleri, farklı JavaScript özelliklerini destekleyerek, uygulamanın daha eski tarayıcılarda da çalışabilmesini sağlar.

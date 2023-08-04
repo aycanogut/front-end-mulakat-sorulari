@@ -1,0 +1,5 @@
+TypeScript, JavaScript kodunu geliştirmek ve hata ayıklamak için kullanılan bir programlama dilidir. TypeScript, JavaScript'in bir üst kümesidir ve JavaScript kodunun tüm özelliklerini içerirken ayrıca statik tip kontrolü, sınıf tabanlı nesne yönelimli programlama ve diğer geliştirici araçları gibi bir dizi ek özellik sunar.
+
+TypeScript, JavaScript ile aynı sözdizimine sahip olduğundan, mevcut JavaScript kodlarını TypeScript'e kolayca dönüştürebilirsiniz. TypeScript, geliştiricilere daha iyi kod kalitesi ve daha kolay hata ayıklama imkanı sunar. Bunun nedeni, TypeScript'in statik tip kontrolü sayesinde, geliştiricilerin tip hatalarını erken aşamada tespit etmelerine ve hataların ortaya çıkmasını önlemelerine olanak tanımasıdır.
+
+TypeScript, geliştiricilere, kodlarını daha iyi organize etme ve yeniden kullanılabilir hale getirme imkanı sunar. Bu nedenle, büyük ve karmaşık uygulamaları geliştirmek için tercih edilen bir dil haline gelmiştir. TypeScript, özellikle Angular, React ve Vue.js gibi popüler JavaScript framework'leri ile uyumludur ve bu framework'lerin daha güvenli ve düzenli bir şekilde geliştirilmesine yardımcı olur.

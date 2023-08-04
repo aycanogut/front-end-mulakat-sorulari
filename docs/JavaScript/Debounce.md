@@ -1,0 +1,1 @@
+Bir işlev çağrılmadan önce araya konulan zaman limiti anlamına gelir. Belirtilen süre limiti geçmeden event handler tetiklenmez ve ilgili fonksiyon çalışmaz.

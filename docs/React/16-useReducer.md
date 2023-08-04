@@ -1,0 +1,3 @@
+useReducer, React'ta durum yönetimi için kullanılan bir kancadır. useState ile benzer şekilde, bir bileşende durumunun yönetilmesine yardımcı olur, ancak bazı durumlarda daha tercih edilir olabilir.
+
+useReducer, genellikle daha büyük ve karmaşık bileşenlerde kullanılır, çünkü durum yönetimini daha iyi bir şekilde organize etmenizi sağlar. useReducer, durumunuzu güncellemek için bir işlev kullanmanızı sağlar. Bu işlev, mevcut durumu ve bir eylem nesnesini parametre olarak alır ve yeni bir durum nesnesi döndürür.

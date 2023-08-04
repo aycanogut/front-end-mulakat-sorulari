@@ -1,0 +1,3 @@
+HOC (Higher-Order Component) bir React özelliğidir ve bir bileşenin işlevselliğini genişletmek veya değiştirmek için kullanılır. HOC, bir bileşenin fonksiyonelliğini korurken, ona yeni özellikler ekleyen veya onu değiştiren bir başka bileşendir.
+
+HOC, bir işlevdir ve bir bileşen alır ve yeni bir bileşen döndürür. Döndürülen bileşen, girdi bileşeninden daha fazla özellik veya işlevsellik içerir. HOC, bileşenleri özelleştirmek veya yeniden kullanmak için kullanılabilir.

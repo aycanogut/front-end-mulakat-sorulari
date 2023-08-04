@@ -1,0 +1,5 @@
+useMemo hook'u, React bileşenlerinde hesaplama maliyeti yüksek olan fonksiyonların ve değerlerin, bellekte önbelleğe alınarak yeniden hesaplanmalarını önleyen bir özelliktir. useMemo hook'u, bir değerin hesaplanması sırasında kullanılan bağımlılıkları takip eder ve bağımlılıklardan biri değiştiğinde, değer yeniden hesaplanır.
+
+useMemo hook'u, performansı artırmak için, React bileşenlerinde karmaşık hesaplamalar yapılırken kullanılır. Örneğin, bir tablo bileşeni, yüzlerce satırdan oluşan bir veri setinde çalışırken, her satırın özelliklerini hesaplamak için useMemo kullanabilirsiniz. Bu sayede, tablo bileşeni yeniden çizildiğinde yalnızca değişen satırların hesaplanması gerekir, diğer satırların hesaplanması gereksizdir.
+
+useMemo, yalnızca hesaplama maliyeti yüksek olan fonksiyonlar ve değerler için kullanılmalıdır. Basit hesaplamalar veya statik veriler için kullanılmamalıdır, çünkü bu durumda bellekte önbelleğe alma işlemi gereksizdir ve performansı olumsuz etkileyebilir.
